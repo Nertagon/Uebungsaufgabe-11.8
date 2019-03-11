@@ -36,11 +36,11 @@ class Wohnung:
         """
         Gibt den Preis der Ferienwohnung pro Übernachtung zurück
         """
-    def setPreis(self, preis):
-        """
-        Legt einen neuen Preis pro Übernachtung fest
-        """
-        self.__Preis = preis
+    # def setPreis(self, preis):
+    #     """
+    #     Legt einen neuen Preis pro Übernachtung fest
+    #     """
+    #     self.__Preis = preis
 
 wohnung1 = Wohnung("Meerblick", "Sylt",4,69)
 wohnung2 = Wohnung("Alpen-Panorama", "Füssen",5,74)
