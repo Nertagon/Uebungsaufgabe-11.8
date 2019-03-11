@@ -42,9 +42,9 @@ class Wohnung:
         """
         self.__Preis = preis
 
-wohnung1 = Wohnung("Meerblick", "Sylt", 4, 69)
-wohnung2 = Wohnung("Alpen-Panorama", "Füssen", 5, 74)
-wohnung3 = Wohnung("Am Seeufer", "Konstanz", 3, 58)
+wohnung1 = Wohnung("Meerblick", "Sylt",4,69)
+wohnung2 = Wohnung("Alpen-Panorama", "Füssen",5,74)
+wohnung3 = Wohnung("Am Seeufer", "Konstanz",3,58)
 
 print("Wohnung1: ", wohnung1.getName(), wohnung1.getOrt(), wohnung1.getBetten(), wohnung1.getPreis())
 print("Wohnung2: ", wohnung2.getName(), wohnung2.getOrt(), wohnung2.getBetten(), wohnung2.getPreis())
